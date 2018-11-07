@@ -29,6 +29,7 @@ h3 {
 
 h3 a {
   color: #FFF;
+  text-decoration: none;
 }
 
 a {
@@ -114,7 +115,8 @@ nav ul li ul li:hover { background: #000000; }
 
 /* Background color change on Hover */
 nav a:hover { 
-  background-color: #000000; 
+  background-color: #000000;
+  text-decoration: none; 
 }
 
 /* Hide Dropdowns by Default
@@ -218,6 +220,7 @@ li > a:only-child:after { content: ''; }
   nav a:hover,
   nav ul ul ul a {
     background-color: #000000;
+    text-decoration: none;
   }
   
   nav ul li ul li .toggle,
