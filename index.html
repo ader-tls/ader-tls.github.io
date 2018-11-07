@@ -22,7 +22,7 @@
 
 <body>
 
- <nav>
+ <nav id="navbar">
         <div id="logo" style="color: red"><strong>TALENTLESS</strong></div>
 
         <label for="drop" class="toggle">Menu</label>
@@ -30,7 +30,7 @@
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li>
-                    <!-- First Tier Drop Down -->
+                    <!-- DROPDOWN MENU IF EVER NEEDED
                     <label for="drop-1" class="toggle">WordPress +</label>
                     <a href="#">WordPress</a>
                     <input type="checkbox" id="drop-1"/>
@@ -43,7 +43,7 @@
                 </li>
                 <li>
 
-                <!-- First Tier Drop Down -->
+                <-- First Tier Drop Down
                 <label for="drop-2" class="toggle">Web Design +</label>
                 <a href="#">Web Design</a>
                 <input type="checkbox" id="drop-2"/>
@@ -52,7 +52,7 @@
                     <li><a href="#">Links</a></li>
                     <li>
                        
-                    <!-- Second Tier Drop Down -->        
+                    <-- Second Tier Drop Down       
                     <label for="drop-3" class="toggle">Tutorials +</label>
                     <a href="#">Tutorials</a>         
                     <input type="checkbox" id="drop-3"/>
@@ -64,30 +64,31 @@
                     </ul>
                     </li>
                 </ul>
-                </li>
-                <li><a href="#">Graphic Design</a></li>
-                <li><a href="#">Inspiration</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                </li> -->
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#members">Team members</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#footer">Footer</a></li>
             </ul>
         </nav>
 
     <!-- INTRODUCTION -->
     <section class="container-fluid">
-        <h1>Welcome to Talentless</h1>
+        <h1><a id="intro"></a>Welcome to Talentless</h1>
     </section>
 
 
     <!-- INFORMATION -->
     <section class="container-fluid">
-        <h1>Info about Talentless</h1>
+        <h1><a id="info"></a>Info about Talentless</h1>
     </section>
 
     <!-- TEAM MEMBERS -->
 
   <section class="container">
     <div class="page-header">
-        <h1>Team members</h1>
+        <h1><a id="members"></a>Team members</h1>
     </div>
     <div class="row active-with-click">
         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -375,12 +376,12 @@
 
     <!-- LINKS -->
     <section class="container-fluid">
-        <h1>More links</h1>
+        <h1><a id="links"></a>More links</h1>
     </section>
 
     <!-- FOOTER -->
     <section class="container-fluid">
-        <h1>Footer under construction</h1>
+        <h1><a id="footer"></a>Footer under construction</h1>
     </section>
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
